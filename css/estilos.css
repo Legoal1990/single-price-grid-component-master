@@ -4,12 +4,15 @@
 }
 
 body{
-    color:black;
-    background-color:rgb(59, 59, 83);
     font-size: 16px;
     font-family: 'Karla', sans-serif;
     max-width: 1440px;
     min-width: 375px;
+}
+
+.container1{
+    background-color: #fff;
+    
 }
 
 .header{
@@ -27,6 +30,45 @@ body{
 .datos1{
     color: hsl(218, 22%, 67%);
     background-color: rgb(3, 54, 35);
+}
+
+.container2{
+    background-color: hsl(179, 62%, 43%);
+    color:white;
+}
+
+.subscription p{
+    font-weight: 700;   
+}
+
+.costo span{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.boton a{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none; 
+    color:white;
+    font-weight: bold;
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 4px;
+}
+
+.container3{
+    background-color:hsl(179, 46%, 61%);
+    color:white;
+}
+.boton p{
+    font-weight: 700;
+}
+nav a{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none; 
+    color:white;
+    font-weight: 400;
 }
 
 
