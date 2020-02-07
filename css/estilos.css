@@ -32,7 +32,7 @@ body{
     background-color: rgb(3, 54, 35);
 }
 
-.container2{
+.contenedor2{
     background-color: hsl(179, 62%, 43%);
     color:white;
 }
@@ -56,11 +56,11 @@ body{
     border-radius: 4px;
 }
 
-.container3{
+.contenedor3{
     background-color:hsl(179, 46%, 61%);
     color:white;
 }
-.boton p{
+.nav p{
     font-weight: 700;
 }
 nav a{
