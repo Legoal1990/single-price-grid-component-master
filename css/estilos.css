@@ -1,6 +1,6 @@
 *{
-    margin:0;
-    padding:0;
+    margin:0px;
+    padding:0px;
 }
 
 body{
@@ -10,9 +10,9 @@ body{
     min-width: 375px;
 }
 
-.container1{
-    background-color: #fff;
-    
+.contenedor1{
+    background-color:red;
+    width: 1440px;
 }
 
 .header{
@@ -58,22 +58,22 @@ body{
 
 .contenedor3{
     background-color:hsl(179, 46%, 61%);
-    color:white;
+    padding: 25px;
 }
-.nav p{
+
+h3{
+    color:white;
     font-weight: 700;
 }
-nav a{
-    display: flex;
-    justify-content: flex-start;
-    text-decoration: none; 
-    color:white;
-    font-weight: 400;
+
+nav ul li a{
+    text-decoration: none;
+    color:  hsl(204, 43%, 93%);
 }
 
-
-
-
+nav ul{
+    list-style: none
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
