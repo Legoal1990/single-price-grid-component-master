@@ -6,41 +6,73 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="css/estilos.css" rel="stylesheet">
+  <link href="css/flexboxgrid.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet"> 
   <title>Frontend Mentor | Single Price Grid Component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  <div class="container">
+  <div class="container1">
     <header class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-6 col-lg-12">
         <div class="header">
-          <h1 class="row">Join our community</h1>
+          <h1>Join our community</h1>
         </div>
       </div>
-
     </header>
-    
-
-    <p>30-day, hassle-free money back guarantee</p>
-
-    <p>Gain access to our full library of tutorials along with expert code reviews. 
-    Perfect for any developers who are serious about honing their skills.</p>
+    <div class="row">
+      <div class="col-xs-8 col-lg-8">
+        <div class="garantia">
+          <p>30-day, hassle-free money back guarantee</p>
+        </div>
+      </div> 
+    </div>
+    <div class="row">
+      <div class="col-xs-10 col-lg-6">
+        <div class="datos1">
+          <p>Gain access to our full library of tutorials along with expert code reviews. 
+          Perfect for any developers who are serious about honing their skills.</p>
+        </div>
+      </div> 
+    </div>
   </div>
-  
-  Monthly Subscription
 
-  &dollar;29 per month
+  <div class="container2">
 
-  Full access for less than &dollar;1 a day
+    <div class="row">
+      <div class="col-xs-8 col-lg-8">
+        <div class="subscription">
+          <p>Monthly Subscription</p>
+        </div>
+      </div> 
+    </div>
 
-  Sign Up
+  <div class="row">
+    <div class="col-xs-8 col-lg-8">
+      <div class="costo">
+        <p>&dollar;29 per month</p>
+      </div>
+    </div> 
+  </div>
 
+  <div class="row">
+    <div class="col-xs-8 col-lg-8">
+      <div class="info">
+        <p>Full access for less than &dollar;1 a day</p>
+      </div>
+    </div> 
+  </div>
+
+  <div class="row">
+    <div class="col-xs-8 col-lg-8">
+      <div class="boton">
+        <a href="#">Sign Up</a>
+      </div>
+    </div> 
+  </div>
+
+---
+<div class="container3">
   Why Us
 
   Tutorials by industry experts
@@ -50,12 +82,17 @@
   Community forum
   Flashcard decks
   New videos every week
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Leonor González</a>.
-    </p>
+</div>  
+
+  <footer class="row">
+    <div class="col-xs-12">
+      <div class="footer">
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Leonor González</a>.
+        </p>
+      </div>
+    </div>
   </footer>
 </body>
 </html>

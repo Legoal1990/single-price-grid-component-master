@@ -5,7 +5,33 @@
 
 body{
     color:black;
-    background-color: white;
+    background-color:rgb(59, 59, 83);
     font-size: 16px;
     font-family: 'Karla', sans-serif;
+    max-width: 1440px;
+    min-width: 375px;
 }
+
+.header{
+    color:hsl(179, 62%, 43%);
+    font-weight: 700;
+    background-color: orange;
+}
+
+.garantia{
+    color: hsl(71, 73%, 54%);
+    font-weight: 400;
+    background-color: rgb(172, 95, 7);
+}
+
+.datos1{
+    color: hsl(218, 22%, 67%);
+    background-color: rgb(3, 54, 35);
+}
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
