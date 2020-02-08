@@ -20,14 +20,14 @@ body{
     overflow: hidden; /*Excesos ocultos*/
     font-size: 16px;
     font-family: 'Karla', sans-serif;
-    width: 750px;
+    width: auto;
     background-color:white;
 }
 
 .header h1{
     color:hsl(179, 62%, 43%);
     font-weight: 700;
-    padding:40px 0px 0px 40px;
+    padding:40px 40px 0px 40px;
 }
 
 .garantia{
