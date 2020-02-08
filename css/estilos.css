@@ -1,78 +1,128 @@
 *{
     margin:0px;
     padding:0px;
+    box-sizing: border-box;
 }
 
 body{
-    font-size: 16px;
-    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
     max-width: 1440px;
     min-width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:80px 0px;
+}
+.principal{
+    display: flex;
+    flex-flow: column;
+    border-radius: 8px;
+    overflow: hidden; /*Excesos ocultos*/
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    width: 750px;
+    background-color:white;
 }
 
-.contenedor1{
-    background-color:red;
-    width: 1440px;
-}
-
-.header{
+.header h1{
     color:hsl(179, 62%, 43%);
     font-weight: 700;
-    background-color: orange;
+    padding:40px 0px 0px 40px;
 }
 
 .garantia{
     color: hsl(71, 73%, 54%);
     font-weight: 400;
-    background-color: rgb(172, 95, 7);
+    padding:30px 40px 0px 40px;
 }
 
 .datos1{
     color: hsl(218, 22%, 67%);
-    background-color: rgb(3, 54, 35);
+    padding:15px 40px 40px 40px;
+    line-height: 25px; /*Interlineado*/
 }
 
 .contenedor2{
+    display:flex;
+    flex-direction: column;
     background-color: hsl(179, 62%, 43%);
     color:white;
 }
 
-.subscription p{
-    font-weight: 700;   
+.subscription h2{
+    font-weight: 700; 
 }
 
-.costo span{
+.costo{
+    display:flex;
+    align-items: center;
+    padding:28px 40px 10px 40px;
+}
+
+.dollar{
     font-size: 30px;
     font-weight: 700;
 }
 
+.moneda{
+    margin-left:10px;
+    font-weight: 400;
+    color:hsl(204, 43%, 93%);
+}
+
+.info p{
+    padding:0px 40px 25px 40px;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
 .boton a{
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     text-decoration: none; 
     color:white;
-    font-weight: bold;
+    font-weight: 700;
     background-color: hsl(71, 73%, 54%);
-    border-radius: 4px;
+    border-radius: 5px;
+    width: 80%;
+    height: 50px;
+    margin: 30px 40px 40px 40px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.164);
+}
+
+.boton a:hover { 
+    background-color: hsl(71, 73%, 48%); 
 }
 
 .contenedor3{
     background-color:hsl(179, 46%, 61%);
-    padding: 25px;
 }
 
-h3{
+h2{
     color:white;
     font-weight: 700;
+    padding:40px 0px 0px 40px;
 }
+
+nav ul{
+    list-style: none;
+    line-height: 25px; /*Interlineado*/
+    padding:20px 0px 40px 40px;
+}
+
 
 nav ul li a{
     text-decoration: none;
     color:  hsl(204, 43%, 93%);
 }
 
-nav ul{
-    list-style: none
+.footer{
+    margin-top: 30px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
